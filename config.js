@@ -9,7 +9,7 @@ DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 
 
 module.exports = {
-  //For Enabling Commands Like AUTO_STATUS_RED Type true For Desenabling Type false
+  //For Enabling Commands Like AUTO_STATUS_RED Type true For Disenabling Type false
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
   //_________________________________________________________________________________________________________________________________
   LOGS: toBool(process.env.LOGS) || true,
@@ -17,6 +17,8 @@ module.exports = {
   ANTILINK_ACTION: process.env.ANTI_LINK || "delete",
   //_________________________________________________________________________________________________________________________________
   AUTO_REACT: process.env.AUTO_REACT || 'false',
+  //_________________________________________________________________________________________________________________________________
+  AUDIO_DATA: process.env.AUDIO_DATA || "Phoenix-MD;Abhishek Suresh;https://graph.org/file/8976892f2f615077b48cd.jpg",
   //_________________________________________________________________________________________________________________________________
   AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'false',
   //_________________________________________________________________________________________________________________________________
@@ -53,6 +55,8 @@ module.exports = {
   BOT_NAME: process.env.BOT_NAME || "Phoenix-MD",
   //_________________________________________________________________________________________________________________________________
   WORK_TYPE: process.env.WORK_TYPE || "private",
+  //_________________________________________________________________________________________________________________________________
+  MENTION_DATA: "Phoenix-MD;919074692450;https://graph.org/file/63942461d4b8d78b360d3.jpg;https://graph.org/file/bb3ac71ec991cef3d5216.mp4",
   //_________________________________________________________________________________________________________________________________
   BASE_URL: "https://abhi-api-bvws.onrender.com/",
   //_________________________________________________________________________________________________________________________________
